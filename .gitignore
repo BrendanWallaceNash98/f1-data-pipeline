@@ -16,8 +16,6 @@ env/
 # Environment variables
 .env
 
-# Data files - commit sample data only
-data/raw/*.parquet
 
 # Logs
 src/logs/**/*.log
