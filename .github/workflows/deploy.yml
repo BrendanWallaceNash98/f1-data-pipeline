@@ -27,10 +27,10 @@ jobs:
         run: ruff check src/
 
       - name: Run SQL tests
-        run: python tests/sql/run_sql_tests.py
+        run: python tests/sql/test_sql_scripts.py
 
       - name: Run unit tests
         run: pytest tests/unit/
 
       - name: run dag
-        run: python3 orchestration/run_job.py 
+        run: python3 orchestration/run_job.py
