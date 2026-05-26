@@ -32,5 +32,8 @@ jobs:
       - name: Run unit tests
         run: pytest tests/unit/
 
+      - name: Create .env file
+        run: ./make_env_file.sh
+
       - name: run dag
         run: python3 orchestration/run_job.py

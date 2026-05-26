@@ -16,7 +16,6 @@ env/
 # Environment variables
 .env
 
-
 # Logs
 src/logs/**/*.log
 src/logs/**/__pycache__/
