@@ -1,0 +1,5 @@
+setup.py
+f1_data_pipeline.egg-info/PKG-INFO
+f1_data_pipeline.egg-info/SOURCES.txt
+f1_data_pipeline.egg-info/dependency_links.txt
+f1_data_pipeline.egg-info/top_level.txt

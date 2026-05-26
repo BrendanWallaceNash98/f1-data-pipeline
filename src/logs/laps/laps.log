@@ -1,0 +1,2 @@
+2026-05-26 18:07:15,716 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-01T00:00:00.606000+00:00
+2026-05-26 18:07:19,252 - laps - INFO - Number of laps fetched: 5810
