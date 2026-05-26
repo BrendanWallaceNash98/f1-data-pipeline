@@ -1,0 +1,4 @@
+#!/bin/bash
+touch .env
+echo "BASE_URL=https://api.openf1.org/v1
+LAST_LOAD='2026-05-24T00:00:00.000000+00:00'" > .env
