@@ -1,0 +1,33 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -e .
+          pip install -r requirements.txt
+
+      - name: Run ruff
+        run: ruff check src/
+
+      - name: Run SQL tests
+        run: python tests/sql/run_sql_tests.py
+
+      - name: Run unit tests
+        run: pytest tests/unit/

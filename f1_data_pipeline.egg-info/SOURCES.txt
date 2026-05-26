@@ -8,5 +8,12 @@ src/ingestion/__init__.py
 src/ingestion/api_client.py
 src/ingestion/drivers.py
 src/ingestion/laps.py
+src/logs/__init__.py
+src/logs/logging_formater.py
 src/storage/__init__.py
 src/storage/parquet_writer.py
+tests/__init__.py
+tests/unit/__init__.py
+tests/unit/test_api_client.py
+tests/unit/test_ingestion.py
+tests/unit/test_storage.py
