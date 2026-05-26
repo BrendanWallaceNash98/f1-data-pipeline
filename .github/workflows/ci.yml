@@ -28,11 +28,11 @@ jobs:
 
       # 4. Run linting
       - name: Run ruff
-        run: ruff check src/
+        run: ruff check
 
       # 5. Run SQL tests
       - name: Run SQL tests
-        run: python tests/sql/run_sql_tests.py
+        run: python tests/sql/test_sql_scripts.py
 
       # 6. Run unit tests
       - name: Run unit tests

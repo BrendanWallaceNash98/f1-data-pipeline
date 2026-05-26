@@ -15,7 +15,6 @@ dagster-webserver==1.13.6
 docstring_parser==0.18.0
 duckdb==1.5.3
 e==1.4.5
-f1-data-pipeline @ file:///Users/brendanwallace-nash/Documents/f1-data-pipeline
 filelock==3.29.0
 fsspec==2026.4.0
 gql==4.0.0
@@ -77,3 +76,4 @@ watchdog==6.0.0
 watchfiles==1.2.0
 websockets==16.0
 yarl==1.24.2
+
