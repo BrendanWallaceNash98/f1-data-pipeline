@@ -9,11 +9,11 @@ def write_parquet_file(data, file_name: str, incremental_load: bool = False):
     fetched_df = process_fetched_data(fetched_df)
 
     if not incremental_load:
-        fetched_df.to_parquet(file_name)
+        fetched_df.to_parquet(file_name, index=False)
         return
     ## this is to assume it is its first run
     if not os.path.exists(file_name):
-        fetched_df.to_parquet(file_name)
+        fetched_df.to_parquet(file_name, index=False)
         return
 
     incremental_load_data(fetched_df, file_name)
@@ -38,5 +38,5 @@ def incremental_load_data(upload_df: pd.DataFrame, file_name: str):
     stored_df = pd.read_parquet(file_name)
     combined_df = pd.concat([upload_df, stored_df], ignore_index=True)
     combined_df = combined_df.drop_duplicates()
-    combined_df.to_parquet(file_name)
+    combined_df.to_parquet(file_name, index=False)
     return

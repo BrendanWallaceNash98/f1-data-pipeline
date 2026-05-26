@@ -137,3 +137,27 @@
 2026-05-26 20:43:19,901 - laps - INFO - Updating LAST_LOAD timestamp
 2026-05-26 20:43:19,902 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
 2026-05-26 20:43:19,902 - laps - INFO - Successfully updated lap data
+2026-05-26 20:50:46,356 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:50:48,631 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:50:48,718 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:50:48,718 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:50:48,719 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:50:48,719 - laps - INFO - Successfully updated lap data
+2026-05-26 21:19:43,103 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 21:19:45,516 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 21:19:45,605 - laps - INFO - Lap data written to parquet file
+2026-05-26 21:19:45,605 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 21:19:45,606 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 21:19:45,606 - laps - INFO - Successfully updated lap data
+2026-05-26 21:20:23,922 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 21:20:26,370 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 21:20:26,394 - laps - ERROR - Error writing to parquet file: 'DataFrame' object has no attribute 'schema'
+2026-05-26 21:20:33,888 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 21:20:36,696 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 21:20:36,718 - laps - ERROR - Error writing to parquet file: 'DataFrame' object has no attribute 'schema'
+2026-05-26 21:21:21,273 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 21:21:23,660 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 21:21:23,732 - laps - INFO - Lap data written to parquet file
+2026-05-26 21:21:23,732 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 21:21:23,733 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 21:21:23,733 - laps - INFO - Successfully updated lap data
