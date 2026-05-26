@@ -28,7 +28,7 @@ jobs:
 
       # 4. Run linting
       - name: Run ruff
-        run: ruff check src/
+        run: ruff check
 
       # 5. Run SQL tests
       - name: Run SQL tests
