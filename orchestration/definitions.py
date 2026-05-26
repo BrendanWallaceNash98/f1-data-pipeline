@@ -7,7 +7,6 @@ from dagster import (
     Backoff,
     AssetExecutionContext
 )
-from urllib3 import Retry
 
 from src.ingestion.laps import process_laps
 from src.ingestion.drivers import process_drivers
