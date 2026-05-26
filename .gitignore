@@ -21,6 +21,7 @@ data/raw/*.parquet
 
 # Logs
 src/logs/**/*.log
+src/logs/**/__pycache__/
 
 # IDE
 .idea/
