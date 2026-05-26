@@ -25,8 +25,9 @@ def driver_raw_pipeline(context: AssetExecutionContext):
     process_drivers()
     context.log.info(f"Driver raw pipeline materialised successfully at {datetime.now(timezone.utc).isoformat()}")
 
-
-@asset(retry_policy= retry)
+## it was asked for them to be run sequentially
+## so I am making laps dependent on drivers
+@asset(retry_policy= retry, deps=[driver_raw_pipeline])
 def laps_raw_pipeline(context: AssetExecutionContext):
     process_laps()
     context.log.info(f"Laps raw pipeline materialised successfully at {datetime.now(timezone.utc).isoformat()}")

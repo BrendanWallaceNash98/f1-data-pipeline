@@ -125,3 +125,15 @@
 2026-05-26 20:36:58,684 - laps - INFO - Updating LAST_LOAD timestamp
 2026-05-26 20:36:58,685 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
 2026-05-26 20:36:58,685 - laps - INFO - Successfully updated lap data
+2026-05-26 20:42:41,359 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:42:43,850 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:42:43,944 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:42:43,944 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:42:43,945 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:42:43,945 - laps - INFO - Successfully updated lap data
+2026-05-26 20:43:17,237 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:43:19,806 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:43:19,901 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:43:19,901 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:43:19,902 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:43:19,902 - laps - INFO - Successfully updated lap data

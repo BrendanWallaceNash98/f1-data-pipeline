@@ -31,3 +31,9 @@
 2026-05-26 20:36:55,886 - drivers - INFO - Calling Drivers endpoint: drivers
 2026-05-26 20:36:58,309 - drivers - INFO - Number of Driver records fetched: 9950
 2026-05-26 20:36:58,377 - drivers - INFO - Driver data collection processed successfully
+2026-05-26 20:42:37,320 - drivers - INFO - Calling Drivers endpoint: drivers
+2026-05-26 20:42:39,795 - drivers - INFO - Number of Driver records fetched: 9950
+2026-05-26 20:42:39,870 - drivers - INFO - Driver data collection processed successfully
+2026-05-26 20:43:13,221 - drivers - INFO - Calling Drivers endpoint: drivers
+2026-05-26 20:43:15,669 - drivers - INFO - Number of Driver records fetched: 9950
+2026-05-26 20:43:15,745 - drivers - INFO - Driver data collection processed successfully
