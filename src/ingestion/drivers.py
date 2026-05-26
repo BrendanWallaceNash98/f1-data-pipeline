@@ -27,5 +27,3 @@ def process_drivers():
         logger.error(f"Error writing to parquet file: {e}")
         raise e
     logger.info(f"Driver data collection processed successfully")
-
-process_drivers()

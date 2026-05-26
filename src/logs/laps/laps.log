@@ -95,3 +95,33 @@
 2026-05-26 20:05:32,603 - laps - INFO - Updating LAST_LOAD timestamp
 2026-05-26 20:05:32,604 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
 2026-05-26 20:05:32,604 - laps - INFO - Successfully updated lap data
+2026-05-26 20:33:32,005 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:33:35,711 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:33:35,751 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:33:35,751 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:33:35,752 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:33:35,752 - laps - INFO - Successfully updated lap data
+2026-05-26 20:33:37,702 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:33:40,048 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:33:40,123 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:33:40,123 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:33:40,124 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:33:40,124 - laps - INFO - Successfully updated lap data
+2026-05-26 20:34:53,730 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:34:56,195 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:34:56,230 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:34:56,230 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:34:56,231 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:34:56,232 - laps - INFO - Successfully updated lap data
+2026-05-26 20:36:40,519 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:36:42,919 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:36:42,991 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:36:42,991 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:36:42,992 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:36:42,992 - laps - INFO - Successfully updated lap data
+2026-05-26 20:36:55,915 - laps - INFO - Processing laps endpoint: laps?date_start>=2026-05-24 18:37:55
+2026-05-26 20:36:58,610 - laps - INFO - Number of laps fetched: 1212
+2026-05-26 20:36:58,684 - laps - INFO - Lap data written to parquet file
+2026-05-26 20:36:58,684 - laps - INFO - Updating LAST_LOAD timestamp
+2026-05-26 20:36:58,685 - laps - INFO - LAST_LOAD timestamp updated to 2026-05-24T21:37:55.888000+00:00
+2026-05-26 20:36:58,685 - laps - INFO - Successfully updated lap data

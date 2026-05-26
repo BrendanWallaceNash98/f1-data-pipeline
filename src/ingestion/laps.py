@@ -54,6 +54,3 @@ def update_last_load(l_data: list):
     max_start_date = max([row["date_start"] for row in l_data])
     set_key(".env" , "LAST_LOAD", max_start_date)
     logger.info(f"LAST_LOAD timestamp updated to {max_start_date}")
-
-
-process_laps()
